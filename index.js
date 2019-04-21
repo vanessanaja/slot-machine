@@ -8,6 +8,11 @@ class App extends React.Component {
           slot2 = "🍇"
           slot3 = "🍏"
            />
+           <Machine
+          slot1 = "🍒"
+          slot2 = "🍒"
+          slot3 = "🍒"
+           />
       </div>
     )
   }
