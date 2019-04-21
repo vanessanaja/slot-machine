@@ -1,6 +1,12 @@
 class Machine extends React.Component {
   render(){
-    return <p>Hi from Machine</p>
+    const {slot1, slot2, slot3} = this.props;
+    return (
+      <div>
+        <p>{slot1} {slot2} {slot3}</p>
+        <p>Winner/Loser</p>
+      </div>
+    )
   }
 }
 
