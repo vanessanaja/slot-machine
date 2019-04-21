@@ -3,7 +3,11 @@ class App extends React.Component {
     return (
       <div>
         <h1>Slot Machines</h1>
-        <Machine />
+        <Machine
+          slot1 = "🍒"
+          slot2 = "🍇"
+          slot3 = "🍏"
+           />
       </div>
     )
   }
